@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Btvn5.2_oder</string>
+    <string name="banner1">Food order</string>
+    <string name="welcome">Welcome </string>
+    <string name="food1">Pizza Panda</string>
+    <string name="food2">KFC Super</string>
+    <string name="food3">Bread Eggs</string>
+    <string name="food4">Coca Cola</string>
+    <string name="food5">Chicken Super</string>
+    <string name="food6">Cup Cake</string>
+    <string name="banner2">Your order</string>
+    <string name="Tocal1">Tocal Price</string>
+    <string name="Tocal2">Tocal</string>
+    <string name="Order">Order</string>
+    <string name="back">back</string>
+
+</resources>

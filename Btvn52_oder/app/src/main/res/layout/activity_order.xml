@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Order">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/back"
+            android:text="@string/back"
+            android:textColor="#FFF"
+            android:textSize="20dp"
+            android:background="@color/colorPrimaryDark"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/banner2"
+            android:textColor="#FFF"
+            android:textSize="20dp"
+            android:layout_marginLeft="20dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp">
+        <ListView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/listvieww"/>
+    </LinearLayout>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_marginTop="20dp"
+    android:layout_height="wrap_content">
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="@string/Tocal2"/>
+    <TextView
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:paddingRight="15dp"
+        android:textSize="20dp"
+        android:id="@+id/gia"
+        android:layout_marginTop="10dp"/>
+    <TextView
+        android:paddingRight="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="$"
+        android:id="@+id/dola"
+        android:textSize="20dp"/>
+
+</RelativeLayout>
+
+</LinearLayout>
